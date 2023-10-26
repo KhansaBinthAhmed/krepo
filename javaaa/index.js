@@ -1,31 +1,31 @@
-// function myinfo(){
-//     alert("hello world")
-//     document.write("i am a student")
-// }
-// function hello(){
-//     document.write("my name is anusha")
-// }
-// function amongus(){
-//     document.write("exploring click event on image")
-// }
-// function flower(){
-//     document.write("Reading is my hobby")
-// }
-// document.write("<br/>")
-// var ary=[10,20,30,40,50,60]
-// document.write(ary+"<br/>")
-// document.write(ary[3]);
+function myinfo(){
+    alert("hello world")
+    document.write("i am a student")
+}
+function hello(){
+    document.write("my name is anusha")
+}
+function amongus(){
+    document.write("exploring click event on image")
+}
+function flower(){
+    document.write("Reading is my hobby")
+}
+document.write("<br/>")
+var ary=[10,20,30,40,50,60]
+document.write(ary+"<br/>")
+document.write(ary[3]);
 
-// var ary=[10,"anusha","shahzad",3.14,true,null,'A']
-// for(var a=0; a<=6; a++){
-//     document.write(ary [a]+"<br/>")
-// }
-// const number=[1,2,3,4,5];
-// let i=0
-// while(i<number.length){
-//     document.write(number[i]);
-//     i++
-// }
+var ary=[10,"anusha","shahzad",3.14,true,null,'A']
+for(var a=0; a<=6; a++){
+    document.write(ary [a]+"<br/>")
+}
+const number=[1,2,3,4,5];
+let i=0
+while(i<number.length){
+    document.write(number[i]);
+    i++
+}
 var student=[
     ["tehreem",22,"female","2001F1"],
     ["Maaz",20,"male","2201F1"],
@@ -72,3 +72,60 @@ document.write(b+"<br/>")
 document.write("array reversed <br/>")
 b.reversed();
 document.write(b+"<br/>")
+var car=new Object();
+car.name="carolla";
+car.model="2019";
+car.color="white";
+car.condition="used";
+
+document.write(car.name +"<br/>");
+document.write(car.color+"<br/>");
+document.write(car.condition+"<br/>");
+document.write(car.model+"<br/>");
+
+var employee=[
+    {name:"Maaz", age:"25"},
+    {name:"Sara", age:"19"},
+    {name:"Ahad", age:"21"},
+    {name:"Farah", age:"22"},
+    {name:"Unzila", age:"20"},
+]
+
+for(var a=0; a<employee.length; a++){
+    document.write(employee[a].name+" "+employee[a].age+ "<br/>")
+}
+
+
+var car={
+    Name:"carolla",
+    color:"white",
+    condition:"used",
+    model:"2019",
+}
+
+for(var key in car){
+    document.write(key+" :"+car[key]+"<br/>")
+}
+
+
+
+var a = "6.77 height";
+var b = parseInt(a);
+document.write(b);
+
+document.write("<br/>")
+var a = "6.23";
+var b = parseFloat(a);
+document.write(b);
+
+document.write("<br/>")
+var a = prompt("Enter first num");
+var b = prompt("enter second num");
+var result = a+b;
+document.write(result);
+
+document.write("<br/>")
+var a = parseInt(prompt("Enter first num"));
+var b = parseInt(prompt("Enter second num"));
+var result = a+b;
+document.write(result);
